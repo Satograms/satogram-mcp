@@ -2,11 +2,11 @@ package main
 
 // ToWhom matches the JSON response from GET /api/v1/towhom.
 type ToWhom struct {
-	TotalCountPubkeys      int64 `json:"total_count_pubkeys"`
-	TotalCountWOSAddresses int64 `json:"total_count_wos_addresses"`
-	TotalCount             int64 `json:"total_count"`
-	TotalSatogramsSent     int64 `json:"total_satograms_sent"`
-	TotalSignedUp          int64 `json:"total_signed_up"`
+	TotalCountPubkeys            int64 `json:"total_count_pubkeys"`
+	TotalCountLightningAddresses int64 `json:"total_count_lightning_addresses"`
+	TotalCount                   int64 `json:"total_count"`
+	TotalSatogramsSent           int64 `json:"total_satograms_sent"`
+	TotalSignedUp                int64 `json:"total_signed_up"`
 }
 
 // SatogramPayload is the request body for POST /api/v1/satogram.

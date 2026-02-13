@@ -27,9 +27,12 @@ go build -o satogram-mcp .
 
 ## Configuration
 
-### Claude Desktop
+### For Claude Desktop
 
 Add to your `claude_desktop_config.json`:
+
+- macOS: `~/Library/Application Support/Claude/claude_desktop_config.json`
+- Windows: `%APPDATA%\Claude\claude_desktop_config.json`
 
 ```json
 {
@@ -41,7 +44,9 @@ Add to your `claude_desktop_config.json`:
 }
 ```
 
-### Claude Code
+### For Claude Code
+
+Run in a separate terminal (not inside a Claude Code session), then restart Claude Code:
 
 ```sh
 claude mcp add satogram -- satogram-mcp
