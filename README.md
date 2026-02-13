@@ -14,13 +14,13 @@ An MCP (Model Context Protocol) server for [Satogram](https://satogram.xyz) — 
 ## Install
 
 ```sh
-go install github.com/satogram-org/satogram-mcp@latest
+go install github.com/Satograms/satogram-mcp@latest
 ```
 
 Or build from source:
 
 ```sh
-git clone https://github.com/satogram-org/satogram-mcp.git
+git clone https://github.com/Satograms/satogram-mcp.git
 cd satogram-mcp
 go build -o satogram-mcp .
 ```

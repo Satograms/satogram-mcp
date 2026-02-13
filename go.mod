@@ -1,4 +1,4 @@
-module github.com/satogram-org/satogram-mcp
+module github.com/Satograms/satogram-mcp
 
 go 1.23.0
 
